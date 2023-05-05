@@ -13,7 +13,7 @@ import Next from 'next';
     TypeOrmModule.forRoot({
       type: 'mysql',
       port: 3306,
-      host: 'localhost',
+      host: 'db',
       username: 'root',
       password: '1234',
       database: 'sample_service',

@@ -46,7 +46,7 @@ export default function CustomLayout({ children }) {
           <main>{children}</main>
         </Content>
         <Footer style={{ textAlign: 'center' }}>
-          nest-next housekeeping book by hamin
+          nest-next sample service
         </Footer>
       </Layout>
     </Layout>
