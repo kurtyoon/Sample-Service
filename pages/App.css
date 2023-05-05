@@ -1,0 +1,21 @@
+@import '~antd/dist/antd.css';
+
+.ant-menu-sub.ant-menu-inline {
+  border: 0;
+  background-color: rgb(243, 251, 158) !important;
+}
+
+.ant-page-header-ghost {
+  background-color: dodgerblue;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
