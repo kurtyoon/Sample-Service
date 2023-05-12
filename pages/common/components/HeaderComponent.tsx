@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Button, PageHeader } from 'antd';
+import Auth from './Auth';
 
 class HeaderComponent extends Component {
   constructor(props) {
@@ -18,7 +19,7 @@ class HeaderComponent extends Component {
           extra={[
             <>
               <div className="nav--login">
-                <Button key="1">카카오로그인</Button>
+                <Auth/>
               </div>
             </>,
           ]}

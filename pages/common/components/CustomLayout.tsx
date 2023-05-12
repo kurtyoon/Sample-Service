@@ -1,6 +1,8 @@
 import HeaderComponent from './HeaderComponent';
 import { Layout, Menu, Breadcrumb } from 'antd';
 import { useRouter } from 'next/router';
+import { LinkProps } from 'next/link';
+import Token from './Token';
 
 const { Content, Sider, Footer } = Layout;
 
